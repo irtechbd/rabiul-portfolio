@@ -39,3 +39,17 @@ section {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
+
+p {
+    color: dimgray;
+}
+
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+h2 {
+    font-size: 40px;
+}
