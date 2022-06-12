@@ -3,6 +3,23 @@ body {
     margin: 0px;
 }
 
+section {
+    height: 500px;
+    padding-bottom: 150px;
+}
+
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.half-width {
+    width: 50%;
+    float: left;
+    padding-left: 5%;
+    padding-left: 2%;
+}
+
 h1 {
     font-size: 50px;
 }
@@ -11,18 +28,13 @@ h1 {
     color: orange;
 }
 
+.half-width img {
+    width: 100%;
+}
+
 .flexible-comtainer {
     display: flex;
     margin-bottom: 150px;
-}
-
-.half-width {
-    width: 50%;
-    padding-left: 5%;
-}
-
-.half-width img {
-    width: 80%;
 }
 
 .link-button {
@@ -35,17 +47,12 @@ h1 {
     color: white;
 }
 
-.top-banner {
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
-}
-
 p {
     color: dimgray;
 }
 
 .dream-big {
-    background-image: url(images/dream-bg.png);
+    background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
 }
